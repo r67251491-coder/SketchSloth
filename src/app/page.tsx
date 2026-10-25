@@ -277,9 +277,9 @@ Begin your response immediately with \`\`\`tsx and end it immediately with \`\`\
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col font-sans p-4 relative overflow-x-hidden">
+    <div className="min-h-screen bg-[#090a0f] text-black flex flex-col font-sans p-4 relative overflow-x-hidden selection:bg-yellow-400 selection:text-black">
       {/* Dynamic 3D Isometric Parallax Gallery Flow with Lumen Museum Background Animation */}
-      <div className="fixed inset-0 z-0 pointer-events-none opacity-40 overflow-hidden">
+      <div className="fixed inset-0 z-0 pointer-events-none opacity-90 overflow-hidden">
         <InfiniteGalleryFlow />
       </div>
 
